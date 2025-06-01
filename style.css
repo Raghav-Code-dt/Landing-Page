@@ -1,0 +1,242 @@
+*{
+    font-family:'Roboto' ,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* outline:1px solid red; */
+}
+
+/* Header */
+.hero{
+    display:flex;
+    background-color: #1F2937;
+    /* padding:200px;
+    width:100%; */
+    flex-wrap:wrap;
+    flex-shrink:1;
+    flex-direction: column;
+    align-content: center;
+    height:100%;
+    padding: 0px 20px 60px ;
+}
+
+.menu{
+    display:flex;
+    color:white;
+    padding: 30px 0px 60px;
+    flex-shrink:1;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+    width:min(1000px,100%);
+    /* position: sticky;  <!--This property helps you to stick bar on top of the table -->
+    top:0;
+    background-color:#1F2937 */
+    margin: 0px 0px;
+}
+
+.header-logo {
+    display: flex;
+    width:auto;
+    flex-wrap:wrap;
+}
+
+.header-logo .img {
+    margin:0px 10px 0px 0px;
+}
+
+.header-logo .name{
+    display:flex;
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+}
+
+
+.nav-bar{
+    display: flex;
+    gap:60px;
+}
+
+.nav-bar a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    width:min(1000px,100%);
+    padding:30px 0px 0px 0px;
+    /* flex-wrap:wrap; */
+}
+
+.content{
+    display:flex;
+    padding:0px 0px 30px 0px;
+    flex-shrink:1;
+    max-width:500px;
+    min-width:300px;
+}
+
+/* @media(min-width:1000px){
+    .hero-content{
+        flex-wrap:wrap;
+    }
+} */
+
+.content h1{
+    font-size: 48px;
+    padding:0px 0px 7px 0px;
+    color:#F9F8FA;
+}
+
+/* .content .text{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+} */
+
+.content p{
+    font-size: 18px;
+    padding:0px 0px 9px 0px;
+    color:#E5E7EB;
+}
+
+.content button{
+    background-color:#3882F6;
+    border-radius: 10px;
+    width:120px;
+    color: #F9F8FA;
+    font-weight:bold;
+    cursor: pointer;
+    font-size:16px;
+    padding: 10px 16px;
+    border:none;
+}
+
+.hero-content img{
+    height:250px;
+    width:auto;
+    box-shadow: 0 0 20px #111;
+    border-radius: 10px;
+    margin-left:20px;
+}
+
+/* The Body */
+.body-container{
+    display:flex;
+    flex-direction:column;
+    padding: 0px 0px 80px 0px;
+}
+
+.info{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:700;
+    padding: 40px 90px 50px;
+    align-self:center;
+    text-align:center;
+}
+
+.body{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.league{
+    display:flex;
+    flex-direction:column;
+    /* outline: 1px solid blue; */
+    width: 200px;
+    height: 220px;
+    align-self: center;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px 0px 0px 0px;
+    border: 3px solid blue;
+    margin: 0px 5px 0px 5px;
+}
+
+.league h1{
+    align-self: center;
+    padding: 20px 0px 20px 0px;
+    font-size:18px;
+}
+
+.league img{
+    object-fit: contain;
+    align-self: center;
+    box-shadow: 0 0 20px #111;
+    border-radius: 10px;
+}
+
+.league p{
+    align-self: center;
+}
+
+/* Quote */
+.quote-container{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-content: center ;
+    padding:160px 0px;
+    color:#1F2937;
+    text-align:center
+}
+
+.quote{
+    font-size:36px;
+    align-self: center;
+    padding: 0px 90px 10px;
+
+}
+
+.quote-by{
+    align-self: center;
+    font-size:40px;
+    font-weight:bold;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 90px 20px;
+}
+
+.action{
+    display: flex;
+    justify-content : space-between;
+    background-color:#3882F6;
+    border-radius:10px;
+    padding: 40px 40px;
+    color:#E5E7EB;
+    width:1000px;
+    flex-wrap:wrap;
+}
+
+.action .phrase{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 0px 20px 10px 0px;
+}
+
+.action button{
+    align-self: flex-start;
+    height: 40px;
+    width:100%;
+    border: 3px solid #F9F8FA;
+    border-radius: 10px;
+    background-color:#3882F6;
+    color:#F9F8FA;
+    padding: 10px 30px;
+    cursor:pointer;
+    margin-top:10px;
+}
